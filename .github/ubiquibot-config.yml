@@ -40,7 +40,7 @@ command-settings:
   - name: "query"
     enabled: true
   - name: "allow"
-    enabled: true
+    enabled: false
 assistive-pricing: true
 auto-pay-mode: true
 analytics-mode: true
