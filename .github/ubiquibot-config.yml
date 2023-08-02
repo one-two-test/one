@@ -26,21 +26,6 @@ priority-labels:
     weight: 4
   - name: "Priority: 4 (Emergency)"
     weight: 5
-command-settings:
-  - name: "assign"
-    enabled: true
-  - name: "unassign"
-    enabled: true
-  - name: "wallet"
-    enabled: true
-  - name: "payout"
-    enabled: true
-  - name: "multiplier"
-    enabled: true
-  - name: "query"
-    enabled: true
-  - name: "allow"
-    enabled: false
 assistive-pricing: true
 auto-pay-mode: true
 analytics-mode: true
