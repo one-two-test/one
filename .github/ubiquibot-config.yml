@@ -1,4 +1,6 @@
-base-multiplier: 2000
+---
+chain-id: 100
+base-multiplier: 1500
 time-labels:
   - name: "Time: <1 Hour"
     weight: 0.125
@@ -26,7 +28,17 @@ priority-labels:
     weight: 4
   - name: "Priority: 4 (Emergency)"
     weight: 5
-assistive-pricing: true
+default-labels:
+  - "Time: <1 Hour"
+  - "Priority: 0 (Normal)"
 auto-pay-mode: true
 analytics-mode: true
-max-concurrent-bounties: 3
+incentive-mode: false
+max-concurrent-bounties: 2
+comment-element-pricing:
+  text: 0.1
+  link: 0.5
+  list: 0.5
+  code: 5
+  image: 5
+promotion-comment: "\n<h6>If you enjoy the DevPool experience, please follow <a href='https://github.com/ubiquity'>Ubiquity on GitHub</a> and star <a href='https://github.com/ubiquity/devpool-directory'>this repo</a> to show your support. It helps a lot!</h6>"
