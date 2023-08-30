@@ -32,7 +32,7 @@ default-labels:
   - "Priority: 0 (Normal)"
 auto-pay-mode: true
 analytics-mode: true
-incentive-mode: false
+incentive-mode: true
 max-concurrent-bounties: 2
 command-settings:
   - name: "start"
