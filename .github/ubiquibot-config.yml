@@ -37,6 +37,8 @@ max-concurrent-bounties: 2
 command-settings:
   - name: "start"
     enabled: true
+  - name: "wallet"
+    enabled: true
 incentives:
   comment:
     elements:
