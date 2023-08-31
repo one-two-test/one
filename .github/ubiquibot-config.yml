@@ -34,6 +34,7 @@ auto-pay-mode: true
 analytics-mode: true
 incentive-mode: true
 max-concurrent-bounties: 2
+comment-incentives: true
 command-settings:
   - name: "start"
     enabled: true
