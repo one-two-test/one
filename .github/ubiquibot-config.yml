@@ -35,6 +35,16 @@ analytics-mode: true
 incentive-mode: true
 max-concurrent-bounties: 2
 comment-incentives: true
+incentives:
+  comment:
+    elements:
+      code: 20
+      img: 5
+      h1: 1
+      li: 0.5
+      blockquote: 0
+    totals:
+      word: 0.1
 command-settings:
   - name: "start"
     enabled: true
