@@ -30,7 +30,6 @@ default-labels:
   - "Time: <1 Hour"
   - "Priority: 0 (Normal)"
 incentive-mode: true
-max-concurrent-bounties: 2
 comment-incentives: true
 incentives:
   comment:
