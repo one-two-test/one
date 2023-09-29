@@ -1,21 +1,20 @@
-evm-network-id: 100
-openai-api-key: "asdasdasdasdasd"
-time-labels:
+evmNetworkId: 100
+timeLabels:
   - name: "Time: <1 Hour"
   - name: "Time: <1 Day"
   - name: "Time: <1 Week"
   - name: "Time: <2 Weeks"
   - name: "Time: <1 Month"
-priority-labels:
+priorityLabels:
   - name: "Priority: 0 (Normal)"
   - name: "Priority: 1 (Medium)"
   - name: "Priority: 2 (High)"
   - name: "Priority: 3 (Urgent)"
   - name: "Priority: 4 (Emergency)"
-default-labels:
+defaultLabels:
   - "Time: <1 Hour"
   - "Priority: 0 (Normal)"
-comment-incentives: true
+commentIncentives: true
 incentives:
   comment:
     elements:
@@ -26,9 +25,9 @@ incentives:
       blockquote: 0
     totals:
       word: 0.1
-command-settings:
+commandSettings:
   - name: "start"
     enabled: true
   - name: "wallet"
     enabled: true
-promotion-comment: "\n<h6>If you enjoy the DevPool experience, please follow <a href='https://github.com/ubiquity'>Ubiquity on GitHub</a> and star <a href='https://github.com/ubiquity/devpool-directory'>this repo</a> to show your support. It helps a lot!</h6>"
+promotionComment: "\n<h6>If you enjoy the DevPool experience, please follow <a href='https://github.com/ubiquity'>Ubiquity on GitHub</a> and star <a href='https://github.com/ubiquity/devpool-directory'>this repo</a> to show your support. It helps a lot!</h6>"
